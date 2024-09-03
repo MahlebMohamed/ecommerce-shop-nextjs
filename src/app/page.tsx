@@ -1,5 +1,5 @@
-import Image from "next/image";
+import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 export default function Home() {
-  return <h1>Hello world</h1>;
+  return <MaxWidthWrapper>Hello world</MaxWidthWrapper>;
 }
